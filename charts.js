@@ -129,7 +129,6 @@ function buildCharts(sample) {
       marker: {size: 28, color:'black'},
       value: result.wfreq,
       title: 'Belly Button Washing Frequency<br> Scrubs per Week',
-      titlefont: {family: '"Arial, Helvetica, sans-serif'},
       type: "indicator",
       gauge: { 
         axis: {range: [0, 10] },
@@ -154,7 +153,7 @@ function buildCharts(sample) {
       line: {
       color: 'black'
       },
-      font: { color: "black", family: "Arial, Helvetica, sans-serif" }
+      font: { color: "black"}
     };
     
     // 6. Use Plotly to plot the gauge data and layout.
